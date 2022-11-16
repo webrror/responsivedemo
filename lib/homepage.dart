@@ -13,7 +13,12 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
+
+    // !
+
     var deviceWidth = MediaQuery.of(context).size.width;
+    
+    // !
 
     if (deviceWidth < 600) {
       return const MyMobileBody();
